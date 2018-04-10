@@ -1,1 +1,1 @@
-# kmg-specailty
+# kmgspecialty
