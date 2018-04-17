@@ -6,6 +6,10 @@
   background-size: cover;
 }
 
+body {
+  background-color: #f5f2f2;
+}
+
 .info {
   padding: 20px;
   margin: 0 auto;
@@ -111,8 +115,23 @@ header {
 .card-container {
     display: grid;
     padding: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 1rem;
+}
+
+.card.one {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card.left {
+  float: left;
+  margin-left: 40%;
+}
+
+.card.right {
+  float: right;
+  margin-left: 10%;
 }
 
 .card {
@@ -124,15 +143,27 @@ header {
     background-color: #fff;
 }
 
+.card h2 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.card p {
+  color: #221515;
+}
+
 .inner-card img {
+  margin-left: auto;
+  margin-right: auto;
   width: 90%;
+  border-radius: 10%;
 }
 
 .inner-card {
   width: 90%;
-  padding-left: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   margin: 0px;
 }
 
@@ -236,19 +267,48 @@ tr:nth-child(even) {
 
 /*Side by Side Tables*/
 
-table.side-table {
-  border:1px solid #000;
-  border-collapse: collapse;
+.container-left {
+  float: left;
+  margin-left: 20px;
+/*  margin-right: -1%;*/
+}
+
+.container-right {
+  float: right;
+  margin-right: 20px;
+}
+
+.container-left.n {
   float: left;
   margin-left: 10%;
 }
 
-table.side-table2 {
-  border:1px solid #000;
-  border-collapse: collapse;
+.container-right.n {
   float: right;
+  margin-right: 10%;
 }
 
+.container-left.g,
+.container-left.v {
+  float: left;
+  margin-left: 15%;
+}
+
+.container-right.g,
+.container-right.v {
+  float: right;
+  margin-right: 15%;
+}
+
+.container-left.s {
+  float: left;
+  margin-left: 1%;
+}
+
+.container-right.s {
+  float: right;
+  margin-right: 0;
+}
 
 
 /*MEDIA QUERIES*/
