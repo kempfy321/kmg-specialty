@@ -6,8 +6,15 @@
   background-size: cover;
 }
 
+
+
 body {
   background-color: #f5f2f2;
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  padding-top: 50px;
 }
 
 .info {
@@ -26,10 +33,13 @@ header {
 }
 
 .navbar {
-  overflow: hidden;
+  overflow: ;
   background-color: #333;
   font-family: Arial;
   width: 100%;
+   position: fixed; /* Set the navbar to fixed position */
+   top: 0; /* Position the navbar at the top of the page */
+   width: 100%; /* Full width */
 }
 
 /* Links inside the navbar */
@@ -155,7 +165,8 @@ header {
 .inner-card img {
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
+  width: 242px;
+  height: 302px;
   border-radius: 10%;
 }
 
