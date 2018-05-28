@@ -6,4 +6,4 @@ This site is meant to make office staff aware about what physicians are availabl
 
 ## Accessibility
 
-This site is meant to be viewed on desktops or large tablets since that is what's normally available in a clinical office. The site has been modified slightly to be view on smaller devices, but it is not preferable.
+This site is meant to be viewed on desktops or large tablets since that is what's normally available in a clinical office. The site has been modified slightly to be viewed on smaller devices, but it is not preferable.
