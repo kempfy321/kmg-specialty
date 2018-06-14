@@ -5,109 +5,66 @@
   <title>KMG Specialties</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
 </head>  
-  
+
 <body id="body">
   <header>
-   <div class="navbar nav navbar-inverse fixed-top">
-      <div class="dropdown">
-        <button class="dropbtn">Cardiology 
-          <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-          <a href="locations/card-locations.html">Locations</a>
-          <a href="matrix/card-matrix.html">Services</a>
-        </div>
-      </div> 
-     
-      <div class="dropdown">
-        <button class="dropbtn">Colorectal Surgery
-          <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-          <a href="locations/rectal-locations.html">Locations</a>
-          <a href="matrix/gastro-matrix.html">Services</a>
-        </div>
-      </div>
-     
-     <div class="dropdown">
-        <button class="dropbtn">Gastroenterology 
-          <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-          <a href="locations/gastro-locations.html">Locations</a>
-          <a href="matrix/gastro-matrix.html">Services</a>
-        </div>
-      </div>
-     
-      <div class="dropdown">
-        <button class="dropbtn">General Surgery 
-          <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-          <a href="locations/surgery-locations.html">Locations</a>
-          <a href="matrix/surgery-matrix.html">Services</a>
-        </div>
-      </div>       
- 
-      <div class="dropdown">
-        <button class="dropbtn">Neurology 
-          <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-          <a href="locations/neurology-locations.html">Locations</a>
-          <a href="matrix/neuro-matrix.html">Services</a>
-        </div>
-      </div> 
 
-      <div class="dropdown">
-        <button class="dropbtn">Neurosurgery 
-          <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-          <a href="locations/neurosurgery-locations.html">Locations</a>
-          <a href="matrix/neuro-matrix.html">Services</a>
-        </div>
-      </div> 
-     
-      <div class="dropdown">
-        <button class="dropbtn">Orthopedics 
-          <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-          <a href="locations/ortho-locations.html">Locations</a>
-          <a href="matrix/ortho-matrix.html">Services</a>
-        </div>
-      </div> 
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-      <div class="dropdown">
-        <button class="dropbtn">Vascular Surgery 
-          <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-          <a href="locations/vas-locations.html">Locations</a>
-          <a href="matrix/vv-matrix.html">Services</a>
-        </div>
-      </div>      
-     
-      <div class="dropdown">
-        <button class="dropbtn">Vein Care 
-          <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-          <a href="locations/vein-locations.html">Locations</a>
-          <a href="matrix/vv-matrix.html">Services</a>
-        </div>
-      </div>   
-    <a href="index.html" class="correction">Corrections?</a>
-    </div>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-  </header>
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item dropdown">
+        <a class="nav-link" href="index.html" class="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+          Home
+        </a>
+      </li>
+    </ul>    
 
- 
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item dropdown">
+        <a class="nav-link" href="locations/card-locations.html" class="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+          Cardiology
+        </a>
+      </li>
+    </ul>
+
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item dropdown">
+        <a class="nav-link" href="locations/surgery-locations.html" class="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+          General Surgery
+        </a>
+      </li>
+    </ul>      
+
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item dropdown">
+        <a class="nav-link" href="locations/neurology-locations.html" class="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+          Neurology
+        </a>
+      </li>
+    </ul>
+
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item dropdown">
+        <a class="nav-link" href="locations/ortho-locations.html" class="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+          Orthopedics
+        </a>
+      </li>
+    </ul>
   
+    </div>
+  </nav>
+</header>
+
 <div class= "info"> 
   <div class="card">
   <h1>Corrections or Updates</h1>
@@ -122,9 +79,14 @@
   </div>   
 </div>   
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
- 
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+
+
 </body>
 </html>
