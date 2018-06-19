@@ -7,7 +7,7 @@ var html = `<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
 
     <ul class="navbar-nav mr-auto">
       <li class="nav-item dropdown">
-        <a class="nav-link" href="index.html" class="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link" href="../index.html" class="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
           Home
         </a>
       </li>
