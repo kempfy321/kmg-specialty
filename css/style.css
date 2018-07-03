@@ -55,12 +55,6 @@ h1 {
     margin: 10px;
 }
 
-.card h2 {
-  font-size: 15px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-
 .inner-card img {
   margin-left: auto;
   margin-right: auto;
@@ -72,17 +66,21 @@ h1 {
 .inner-card {
   max-width: 90%;
   padding: 15px;
+  padding-right: 0;
+}
+
+.inner-card h2 {
+  margin: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 14px;
+  font-weight: 700;
 }
 
 .inner-card p{
   margin: 0;
   text-align: left;
-  font-size: 10px;
-}
-
-.inner-card h2 {
-  margin: 0;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .title {
@@ -105,19 +103,12 @@ h1 {
     width: 188px;
     height: 235px;
   }
-  .inner-card p{
-    font-size: 11px;
-  }
-  .inner-card h2 {
-    font-size: 11px;
-  }
 }
 
 @media screen and (min-width: 576px) {
   .card-columns {
     column-count: 2;
   }
-
 }
 
 @media screen and (min-width: 750px) {
@@ -128,11 +119,8 @@ h1 {
 }
 
 @media screen and (min-width: 1000px) {
-  .inner-card p{
-    font-size: 12px;
-  }
   .inner-card h2 {
-    font-size: 14px;
+    font-size: 16px;
   }
   .card-columns {
     column-count: 3;
