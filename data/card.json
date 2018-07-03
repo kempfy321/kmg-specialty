@@ -1,0 +1,227 @@
+// {
+// "name":"John",
+// "age":30,
+// "cars":[ "Ford", "BMW", "Fiat" ]
+// }
+
+
+[
+  {
+    "img" : "../images/cardiology/alkhali_b.jpg",
+    "name" : "Bassel Alkhalil, MD",
+    "address" : "201 Abraham Flexner Way",
+    "address2" : "Suite 1101",
+    "address3" : "Louisville, KY 40202",
+    "phone" : "P 502-581-1951",
+    "fax" : "F 502-540-5137"
+  },
+
+
+  {
+    "img" : "../images/cardiology/attavar_p.jpg",
+    "name" : "Preeti Attavar, MD",
+    "address" : "1900 Bluegrass Ave. Plaza II",
+    "address2" : "Suite 103",
+    "address3" : "Louisville, KY 40215",
+    "phone" : "P 502-367-4500",
+    "fax" : "F 502-368-8139"
+  },
+
+  {
+    "img" : "../images/cardiology/bessen_m.jpg",
+    "name" : "Matthew Bessen, MD",
+    "address" : "225 Abraham Flexner Way",
+    "address2" : "Suite 305",
+    "address3" : "Louisville, KY 40202",
+    "phone" : "P 502-585-4321",
+    "fax" : "F 502-566-6338"
+  },
+
+  {
+    "img" : "../images/cardiology/fisher_b.jpg",
+    "name" : "Bruce Fisher, MD",
+    "address" : "3920 Dutchmans Ln",
+    "address2" : "Suite 316",
+    "address3" : "Louisville, KY 40207",
+    "phone" : "P 502-585-4321",
+    "fax" : "F 502-899-9011"
+  },
+
+  {
+    "img" : "../images/cardiology/fuchs_g.jpg",
+    "name" : "Gary Fuchs, MD",
+    "address" : "225 Abraham Flexner Way",
+    "address2" : "Suite 305",
+    "address3" : "Louisville, KY 40202",
+    "phone" : "P 502-585-4321",
+    "fax" : "F 502-566-6338"
+  },
+
+  {
+    "img" : "../images/cardiology/gaitonde_r.jpg",
+    "name" : "Rajdeep Gaitonde, MD",
+    "address" : "201 Abraham Flexner Way",
+    "address2" :  "Suite 1101",
+    "address3" : "Louisville, KY 40202",
+    "phone" : "P 502-581-1951",
+    "fax" : "F 502-540-5137"
+  },
+
+  {
+    "img" : "../images/cardiology/james_k.jpg",
+    "name" : "Koduvathara James, MD",
+    "address" : "225 Abraham Flexner Way",
+    "address2" : "Suite 305",
+    "address3" : "Louisville, KY 40202",
+    "phone" : "P 502-585-4321",
+    "fax" : "F 502-566-6338"
+  },
+
+  {
+    "img" : "../images/cardiology/joseph_s.jpg",
+    "name" : "S. Abraham Joseph, MD",
+    "address" : "1900 Bluegrass Ave. Plaza II",
+    "address2" : "Suite 103",
+    "address3" : "Louisville, KY 40215",
+    "phone" : "P 502-367-4500",
+    "fax" : "F 502-368-8139"
+  },
+
+  {
+    "img" :  "../images/cardiology/piracha_a.jpg",
+    "name" : "Amir Piracha, MD",
+    "address" : "201 Abraham Flexner Way",
+    "address2" : "Suite 1101",
+    "address3" : "Louisville, KY 40202",
+    "phone" : "P 502-581-1951",
+    "fax" : "F 502-540-5137"
+  },
+
+  {
+    "img" : "../images/cardiology/prince_c.jpg",
+    "name" : "Charles Prince, MD",
+    "address" : "1900 Bluegrass Ave. Plaza II",
+    "address2" : "Suite 103",
+    "address3" : "Louisville, KY 40215",
+    "phone" : "P 502-367-4500",
+    "fax" : "F 502-368-8139"
+  },
+
+  {
+    "img" : "../images/cardiology/raheja_p.jpg",
+    "name" : "Praful Raheja, MD",
+    "address" : "201 Abraham Flexner Way",
+    "address2" : "Suite 1101",
+    "address3" : "Louisville, KY 40202",
+    "phone" : "P 502-581-1951",
+    "fax" : "F 502-540-5137"
+  },
+
+  {
+    "img" : "../images/cardiology/rangaswamy_c.jpg",
+    "name" : "Chandhiran Rangaswamy, MD",
+    "address" : "201 Abraham Flexner Way", 
+    "address2" : "Suite 1101",
+    "address3" : "Louisville, KY 40202",
+    "phone" : "P 502-581-1951",
+    "fax" : "F 502-540-5137"
+  },
+
+  {
+    "img" : "../images/cardiology/rogers_p.jpg",
+    "name" : "Paul Rogers, MD",
+    "address" : "4402 Churchman Ave. Plaza I",
+    "address2" : "Suite 205",
+    "address3" : "Louisville, KY 40215",
+    "phone" : "P 502-380-1214",
+    "fax" : "F 502-380-1215"
+  }
+
+
+
+
+// img "../images/cardiology/sardana_v.jpg"  Dr. Sardana">
+// Vrinda Sardana, MD
+// 201 Abraham Flexner Way Suite 1101
+// Louisville, KY 40202
+// P 502-581-1951
+// F 502-540-5137 
+
+
+
+
+
+// img "../images/cardiology/satran_a.jpg"  Dr. Satran">
+// Aaron Satran, MD
+// 720 Hospital Dr. Suite 206
+// Shelbyville, KY 40065
+// P 502-647-5580
+// F 502-647-4197    
+
+
+
+
+
+// img "../images/cardiology/shelton_d.jpg"  nurse practitioner David Shelton">
+// David Shelton, APRN
+// 118 Patriot Dr. Suite 103
+// Bardstown, KY 40004
+// P 502-331-9503
+// F 502-331-0334
+
+
+
+
+
+// img "../images/cardiology/solankhi_n.jpg"  Dr. Solankhi">
+// Naresh Solankhi, MD
+// 225 Abraham Flexner Way Suite 305
+// Louisville, KY 40202
+// P 502-585-4321
+// F 502-566-6338
+
+
+
+
+
+// img "../images/cardiology/stidam_j.jpg"  Dr. Stidam">
+// Jeffrey Stidam, MD
+// 225 Abraham Flexner Way Suite 305
+// Louisville, KY 40202
+// P 502-585-4321
+// F 502-566-6338
+
+
+
+
+
+// img "../images/cardiology/trimbur_t.jpg"  Dr. Trimbur">
+// Thomas Trimbur, MD
+// 3920 Dutchmans Ln. Suite 316
+// Louisville, KY 40207
+// P 502-585-4321
+// F 502-899-9001  
+
+
+
+
+
+// img "../images/cardiology/ummat_a.jpg"  Dr. Ummat">
+// Arun Ummat, MD
+// 225 Abraham Flexner Way Sutie 305
+// Louisville, KY 40202
+// P 502-585-4321
+// F 502-566-6338 
+
+
+
+
+
+// img "../images/cardiology/weiss_m.jpg"  Dr. Weiss">
+// Morris Weiss, MD
+// 1900 Bluegrass Ave. Plaza II Suite 103
+// Louisville, KY 40215
+// P 502-367-4500
+// F 502-368-81397  
+
+]      
