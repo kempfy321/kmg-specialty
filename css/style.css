@@ -13,6 +13,8 @@ body {
 
 h1 {
   padding-top: 50px;
+  font-size: 1.5rem;
+  font-weight: 700;
 }
 
 .info {
@@ -58,8 +60,8 @@ h1 {
 .inner-card img {
   margin-left: auto;
   margin-right: auto;
-  width: 150px;
-  height: 188px;
+  width: 188px;
+  height: 235px;
   border-radius: 10%;
 }
 
@@ -98,27 +100,33 @@ h1 {
 
 /*MEDIA QUERIES*/
 
-@media screen and (min-width: 420px) {
-  .inner-card img {
-    width: 188px;
-    height: 235px;
-  }
-}
+/*@media screen and (min-width: 420px) {
+  h1 {
+    font-size: 1rem;
+    }
+  }*/
+
 
 @media screen and (min-width: 576px) {
   .card-columns {
     column-count: 2;
   }
+  h1 {
+    font-size: 2rem;
+  }
 }
 
-@media screen and (min-width: 750px) {
+/*@media screen and (min-width: 750px) {
   .inner-card img {
     width: 169px;
     height: 211px;
   }
-}
+}*/
 
 @media screen and (min-width: 1000px) {
+  h1 {
+    font-size: 2.5rem;
+  }
   .inner-card h2 {
     font-size: 16px;
   }

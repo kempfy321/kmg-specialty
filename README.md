@@ -2,7 +2,7 @@
 
 ## A tool for office staff
 
-This site is meant to help keep office staff aware about which physicians are in-network and days of availablity for their respective specialities.
+This site is meant to help keep office staff aware about which physicians are in-network for their respective specialities.
 
 ## Accessibility
 
